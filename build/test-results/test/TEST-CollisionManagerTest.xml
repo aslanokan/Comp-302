@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CollisionManagerTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-12-24T15:25:45" hostname="Mars.local" time="0.042">
+  <properties/>
+  <testcase name="checkBallCollisionSouthBound" classname="CollisionManagerTest" time="0.04"/>
+  <testcase name="checkBallCollisionNorthBound" classname="CollisionManagerTest" time="0.0"/>
+  <testcase name="checkBallCollision" classname="CollisionManagerTest" time="0.0"/>
+  <testcase name="testLimitPaddleEast" classname="CollisionManagerTest" time="0.0"/>
+  <testcase name="testLimitPaddleWest" classname="CollisionManagerTest" time="0.0"/>
+  <testcase name="checkBallCollisionEastBound" classname="CollisionManagerTest" time="0.001"/>
+  <testcase name="checkBallCollisionPaddle" classname="CollisionManagerTest" time="0.0"/>
+  <testcase name="checkBallCollisionWestBound" classname="CollisionManagerTest" time="0.0"/>
+  <system-out><![CDATA[0.1
+-0.1
+-0.1
+-0.1
+-0.1
+-0.1
+-0.1
+0.1
+0.1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

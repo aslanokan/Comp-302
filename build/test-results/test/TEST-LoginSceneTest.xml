@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LoginSceneTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-12-24T15:25:45" hostname="Mars.local" time="0.059">
+  <properties/>
+  <testcase name="canSingInFalse" classname="LoginSceneTest" time="0.053"/>
+  <testcase name="canSingInFalse2" classname="LoginSceneTest" time="0.002"/>
+  <testcase name="canSingIn" classname="LoginSceneTest" time="0.002"/>
+  <testcase name="canSingUp" classname="LoginSceneTest" time="0.002"/>
+  <system-out><![CDATA[java.io.FileNotFoundException: okan:123456 (No such file or directory)
+java.io.FileNotFoundException: okan:1234 (No such file or directory)
+java.io.FileNotFoundException: ok:123456 (No such file or directory)
+]]></system-out>
+  <system-err><![CDATA[Dec 24, 2019 6:25:45 PM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster created with settings {hosts=[ds241723.mlab.com:41723], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+Dec 24, 2019 6:25:45 PM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster created with settings {hosts=[ds241723.mlab.com:41723], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+Dec 24, 2019 6:25:45 PM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster created with settings {hosts=[ds241723.mlab.com:41723], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+Dec 24, 2019 6:25:45 PM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster created with settings {hosts=[ds241723.mlab.com:41723], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+]]></system-err>
+</testsuite>
